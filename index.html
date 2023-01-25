@@ -10,7 +10,10 @@
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
     <!--Bootstrap CSS-->
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+
+    <!--Bootstrap Carousel-->
+    <link rel="stylesheet" href="assets/carousel/carousel.css">
 
     <!--Custom CSS-->
     <link href="index.css" rel="stylesheet">
@@ -35,15 +38,15 @@
         <i class="bi bi-list" id="iconBurger"></i>
       </button>
       <div class="collapse navbar-collapse" id="menuResponsive">
-        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+        <ul class="navbar-nav m-auto mb-2 mb-sm-0">
           <li class="nav-item">
             <a class="nav-link active " aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active About" href="#">About</a>
+            <a class="nav-link active About" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Contact</a>
+            <a class="nav-link active" href="#Contact">Contact</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
@@ -106,25 +109,25 @@
     </button>
   </div>
   <!--carousel-->
-  
+  <hr id="font_color" class="featurette-divider">
   <div class="container marketing">
    <!-- Three columns of text below the carousel -->
    <div class="row">
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-4 text-center mt-3">
       <img src="assets/images/Pembuatan Aplikasi.png" id="img_marketing" class="img-thumbnail rounded-circle mb-2" width="150" height="150"/>
 
       <h2 id="font_color" class="fw-normal">Pembuatan Aplikasi</h2>
       <p>Kami Melayani Pembuatan Aplikasi Berbasis Website</p>
       <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-4 text-center mt-3">
       <img src="assets/images/Pelatihan Online.png" id="img_marketing" class="img-thumbnail rounded-circle mb-2" width="150" height="150"/>
 
       <h2 id="font_color" class="fw-normal">Pelatihan Online</h2>
       <p>Kami Melayani Pelatihan Online Pembuatan Website</p>
       <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4 text-center">
+    <div class="col-lg-4 text-center mt-3">
       <img src="assets/images/Pusat Pelayanan.png" id="img_marketing" class="img-thumbnail rounded-circle mb-2" width="150" height="150"/>
 
       <h2 id="font_color" class="fw-normal">Pusat Pelayanan</h2>
@@ -137,12 +140,12 @@
 
     <hr id="font_color" class="featurette-divider">
 
-    <div class="row featurette">
-     <div class="col-md-7">
-       <h1 id="font_color" class="featurette-heading fw-normal lh-1">First featurette heading. <span id="font_color" class="text-muted">It’ll blow your mind.</span></h1>
+    <div id="about" class="row featurette pt-5">
+     <div class="col-md-7 pt-5">
+       <h1 id="font_color" class="featurette-heading fw-normal lh-1 pt-1">First featurette heading. <span id="font_color" class="text-muted">It’ll blow your mind.</span></h1>
        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
      </div>
-     <div class="col-md-5">
+     <div class="col-md-5 pt-5">
 
        <img src="assets/images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" id="#" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"/>
 
@@ -150,7 +153,6 @@
    </div>
 
    <hr id="font_color" class="featurette-divider">
-
    <div class="row featurette">
      <div class="col-md-7 order-md-2">
        <h1 id="font_color" class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span id="font_color" class="text-muted">See for yourself.</span></h1>
@@ -160,6 +162,31 @@
        <img src="assets/images/annie-spratt-QckxruozjRg-unsplash.jpg" id="#" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"/>
      </div>
    </div>
+   <hr id="font_color" class="featurette-divider">
+   <div id="Contact" class="row">
+    <h2 id="font_color" class="fw-normal text-center">ORANG YANG MELAKUKAN</h2>
+    <div class="col-lg-4 text-center mt-3">
+      <img src="assets/images/kevin-mueller-aeNg4YA41P8-unsplash.jpg" id="img_marketing" class="img-thumbnail rounded-circle mb-2" width="150" height="150"/>
+
+      <h2 id="font_color" class="fw-normal">T-KOMPUTER</h2>
+      <p>Kami Melayani Pembuatan Aplikasi Berbasis Website</p>
+      <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4 text-center mt-3">
+      <img src="assets/images/pexels-richard-verbeek-572861.jpg" id="img_marketing" class="img-thumbnail rounded-circle mb-2" width="150" height="150"/>
+
+      <h2 id="font_color" class="fw-normal">T-INDUSTRI</h2>
+      <p>Kami Melayani Pelatihan Online Pembuatan Website</p>
+      <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4 text-center mt-3">
+      <img src="assets/images/pexels-roman-odintsov-12715260.jpg" id="img_marketing" class="img-thumbnail rounded-circle mb-2" width="150" height="150"/>
+
+      <h2 id="font_color" class="fw-normal">T-FISIKA</h2>
+      <p>Melayani Sepenuh Hati Dengan Harga Yang Terjangkau</p>
+      <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
 
    <hr id="font_color" class="featurette-divider">
 
@@ -167,8 +194,8 @@
 
 
   <!-- FOOTER -->
-  <div class="container" id="footer">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center">
       <div class="col-md-4 d-flex align-items-left">
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
           <img src="assets/brand/graphics_painting_colors_color_graficos_1757.png" width="25" height="25">
@@ -176,11 +203,12 @@
         <span id="font_color" class="mb-3 mb-md-0 text-muted">AKMAL ZULQURNAIN</span>
       </div>
   
-      <ul id="medsos" class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <ul id="medsos footer" class="nav col-md-4 justify-content-end list-unstyled d-flex">
         <li class="ms-3"><a href="#"><img src="assets/images/twitter.png" width="25" height="25"></a></li>
         <li class="ms-3"><a href="#"><img src="assets/images/instagram.png" width="25" height="25"></a></li>
         <li class="ms-3"><a href="#"><img src="assets/images/facebook.png" width="25" height="25"></a></li>
       </ul>
+    </footer>
  </div>
 </body>
 
